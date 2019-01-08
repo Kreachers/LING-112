@@ -1,0 +1,48 @@
+Jan 7 2018
+Ling 112 Syntax I
+panand@ucsc.edu
+
+
+1.  The rain continued to fall.
+2.  The to continued to fall rain.
+3.  Someone are complaining.
+4.  A. It's me.
+    B. It's I.
+5.  A. congress voted to end the program.
+    B. the redwood voted to end the program.
+6.  Boiling water can be thrilling.
+
+every class will have homework due next class
+homework should be done in groups
+no set groups
+fuck
+classroom.google.com
+code: zqsuz1
+
+homework is graded on a scale from 0 to 5
+0 is unsatisfactory
+5 is excellent
+3-5 is optimal
+
+should be taken pass/no pass
+
+take home final
+
+Lingusitics
+What is going on in out heads when it comes to language. We can for principles when it comes to reason.
+Pretty much everyone learns to speak fluently by 5.
+We have a biological aptitude to language.
+In this class we focus on Syntax, how we build sentences.
+We will use English.
+We will be creating a generative grammar and it will change through the structure.
+It will generate all and only the well formed expressions of English.
+
+idiolect: individual dialect
+Technical terms for well formed(grammatical) and not well formed(ungrammatical)
+
+grammatical: A sentence is a grammatical sentence of X language iff a native speaker judges it to be well formed
+ungrammatical: A sentence is a grammatical sentence of X language iff a native speaker judges it to be not well formed
+
+We call things infelicitous/anomalous if a sentence is well formed but doesnt make sense. ex sentence 5b
+
+sentences 6 is ambiguous. it has multiple interpretations
