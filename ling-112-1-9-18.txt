@@ -1,0 +1,64 @@
+Jan 9 2018
+Ling 112 Syntax I
+panand@ucsc.edu
+
+all grammatical sentences
+
+1. Bats arrived.
+2. The enormous bat arrived.
+3. The bat arrived.
+4. Enormous babies giggled.
+5. A dragon entered.
+6. A powerful dragon entered.
+7. Pigs saw a powerful bat.
+8. A powerful bat saw the dragon.
+9. Babies frightened the chubby Pigs.
+10. The chubby bat saw goats.
+11. The powerful dragon frightened ridiculous Bats.
+12. Bats frightened the pig.
+13. Ridiculous baby saw a chubby bats.
+14. Dragons saw bats.
+
+"#" at the beginning means that the sentences is judged to be semantically ill formed
+
+I am a native speaker and i judge the sentence to be well formed but semantically ill formed
+
+anomalous and false aren't the same thing
+if a sentences is anomalous if the world would have to change to be true
+
+The child buried the statue with a shovel.
+R = reading
+R1: The child used a shovel to bury the statue.
+    ("used" shows that the shovel was used to bury)
+R2: The child buried the statue and the shovel together.
+    ("together" shows that they are a unit)
+R3: The child buried the statue that had a shovel attached to it.
+    (similar but the statue and shovel are connected because of "attached")
+
+"the the child" is a grammatical sentences
+
+1. "the the child" is a unit so anything could go there. ex. blip blap
+   the sentence is grammatical but not true
+
+2. in order for the sentence as a whole to be grammatical each part must be
+   this uses a rule instead of our intuition
+
+1. go to the citation form of the word
+citation form is the version in the dictionary
+
+2. if the the citation form can be places in the the slot in the frame and the result is a grammatical sentence of English, then the word is an X.
+
+Nouns(use in both)
+There is no ____ here.
+Pranav's ____ is uninteresting
+
+Adjectives
+It is rather/very/extremely ____
+
+Verbs
+(use on or the other. some verbs work in both but only need to work with one)
+They want to ____.
+It seams to ____.
+-----------------------------
+They want to ____ it/them.
+It seems to ____ it/them
