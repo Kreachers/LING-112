@@ -1,0 +1,125 @@
+Jan 11 2019
+Ling 112 Syntax I
+Pranav Anand
+panand@ucsc.edu
+
+MSI Tutoring
+Azusena
+akorozro@ucsc.edu
+Hours: google "MSI hours UCSC"
+SGT ARCenter
+  831-459-4333
+  lss@ucsc.edu
+hours will be set on the jan 14
+
+1. Bats arrived.
+2. The enormous bat arrived.
+3. The bat arrived.
+4. Enormous babies giggled.
+5. A dragon entered.
+6. A powerful dragon entered.
+7. Pigs saw a powerful bat.
+8. A powerful bat saw the dragon.
+9. Babies frightened the chubby Pigs.
+10. The chubby bat saw goats.
+11. The powerful dragon frightened ridiculous Bats.
+12. Bats frightened the pig.
+13. Ridiculous baby saw a chubby bats.
+14. Dragons saw bats.
+
+
+Lexicon: Repository of words
+         (Atomic building blocks)
+  list of entries
+  entry:
+    pronunciation, spelling
+    meaning
+    syntactic category(last nights homework)
+    idiosyncrasies
+
+USE THE SENTENCE FRAMES GIVEN LAST CLASS TO TELL A WORDS
+class
+Noun
+Verb
+Adjective
+
+Be and generous as possible
+Break the word down to its citation form. Ex. bats to bat, babies to baby
+Sentence Frames
+  Nouns(use in both)
+    There is no ____ here.
+    Pranav's ____ is uninteresting
+
+  Adjectives
+    It is rather/very/extremely ____
+
+  Verbs
+  (use on or the other. some verbs work in both but only need to work with one)
+    They want to ____.
+    It seams to ____.
+    -----------------------------
+    They want to ____ it/them.
+    It seems to ____ it/them
+
+A: D
+Arrived: V
+Baby: N,V
+Bat: N,V
+Chubby: A
+Dragon: N
+Enormous: A
+Enter: V
+Frighten: V
+Giggle: N,V
+Goat: N
+Powerful: A
+Pig: N
+Ridiculous: A
+See: V
+The: D
+
+
+determiners are part of the closed class
+words in the closed class tend not to be borrowed from other languages
+
+Lexical categories
+Noun
+Verb
+Adjective
+
+functional categories
+Determiners
+
+
+
+
+NV     (1)
+DANV   (2)(6)
+DNV    (3)(5)
+DANV   (4)
+NVDAN  (7)
+DANVDN (8)
+NVAN   (9)
+DANVN  (10)
+DANVAN (11)
+NVDN   (12)
+DANVDAN(13)
+NVN    (14)
+
+(1) All S have a V
+(2) A is always followed by N
+(3) All S have at least 1 N
+(4) All V are after 1 N
+(5a) D is always followed by N
+(5b) an A can go between D and N
+
+
+ideas
+Richards
+ NV
+Peiwen
+ AN
+Chris = Richards+noah
+(D)(A)N
+Noah
+D(A)N

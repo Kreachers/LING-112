@@ -1,6 +1,8 @@
-Jan 9 2018
+Jan 7 2019
 Ling 112 Syntax I
+Pranav Anand
 panand@ucsc.edu
+
 
 all grammatical sentences
 
@@ -48,17 +50,20 @@ citation form is the version in the dictionary
 
 2. if the the citation form can be places in the the slot in the frame and the result is a grammatical sentence of English, then the word is an X.
 
-Nouns(use in both)
-There is no ____ here.
-Pranav's ____ is uninteresting
+Be and generous as possible
+Break the word down to its citation form. Ex. bats to bat, babies to baby
+Sentence Frames
+  Nouns(use in both)
+    There is no ____ here.
+    Pranav's ____ is uninteresting
 
-Adjectives
-It is rather/very/extremely ____
+  Adjectives
+    It is rather/very/extremely ____
 
-Verbs
-(use on or the other. some verbs work in both but only need to work with one)
-They want to ____.
-It seams to ____.
------------------------------
-They want to ____ it/them.
-It seems to ____ it/them
+  Verbs
+  (use on or the other. some verbs work in both but only need to work with one)
+    They want to ____.
+    It seams to ____.
+    -----------------------------
+    They want to ____ it/them.
+    It seems to ____ it/them
