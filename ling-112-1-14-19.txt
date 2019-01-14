@@ -1,0 +1,59 @@
+Jan 11 2019
+Ling 112 Syntax I
+Pranav Anand
+panand@ucsc.edu
+
+        D     A        N      V
+(7) a. The enormous dragons giggled.
+          A        N       V
+    b. Enormous dragons giggled.
+        D     N       V
+    c. The dragons giggled.
+          N       V
+    d. Dragons giggled.
+
+        D     N        V     D    N
+(8) a. The dragons frighten the babies.
+        D     N        V      N
+    b. The dragons frighten babies.
+        D     N        V       A       N
+    c. The dragons frighten enormous babies.
+        D     N        V     D     A       N
+    d. The dragons frighten the enormous babies.
+
+(9) a. What giggled? The enormous dragons.
+    b. What giggled? Enormous dragons.
+    c. What giggled? The dragons.
+    d. What giggled? dragons.
+
+(10) a. The what giggled? Enormous dragons.
+     b. *What the giggled?
+     c. What were the things that giggled? Enormous dragons.
+
+These are targeting 8d.
+(11) a. Who did the dragons frighten?
+     b.*Who did the dragons frighten the?
+     c. The dragons frighten the what? echo question
+
+what in the case below acts as a blank.
+10a is an echo question. essentially fill in the blank.
+echo questions cant be put inside other sentences.
+
+we cant add words to the questions that didn't show up in the sentence.
+
+
+If D is present then it is part of the unit.
+If A is present then it is part of the unit.
+
+N is part of a unit and and D or A to the left is part of that unit
+
+(12) a. what do the dragons do? frighten the babies.
+     b.
+
+
+noun phrase(NP) ---> (D)(A)N
+D and A don't have to be there but if they are they are part of the unit
+
+verb phrase(VP) ---> V(NP)
+
+sentence(C) ---> NP VP
