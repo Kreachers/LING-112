@@ -1,0 +1,58 @@
+Jan 18 2019
+Ling 112 Syntax I
+Pranav Anand
+panand@ucsc.edu
+
+(1) The impatient child complained.
+(2)*The very child complained.
+(3) The very impatient child complained.
+(3') The impatient very child complained.
+
+Pronouns, he/she they/them it, are noun phrases so they wont work in our noun sentences frames.
+sentence frames for finding noun phrases
+a. ____ is not good.
+b. ____crawled to the door.
+
+
+S->NP VP
+VP->V (NP)
+
+Our three new noun phrase
+NP->(D) (A) N
+NP->Pronouns
+NP->Name
+
+NEW
+PP->P NP
+
+S-> NP VP (PP)
+VP->  V (NP) (PP)
+
+------------------------------------
+
+New Grammar
+S-> (D) (A) N
+VP-> V (NP) (PP)
+
+NP->(D) (A) N
+NP->Pronouns
+NP->Name
+
+
+Deg must have an A immediately to its right.
+
+proposed
+
+AP->(Deg) A
+
+Imagine the grammar as a lean machine.
+Try to say a generalization once.
+
+
+more new Grammar
+S-> (D) (A) N
+VP-> V (NP) (AP) (PP)
+AP-> (Deg) A
+NP->(D) (A) N
+NP->Pronouns
+NP->Name
