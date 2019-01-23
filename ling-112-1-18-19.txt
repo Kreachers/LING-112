@@ -14,45 +14,46 @@ a. ____ is not good.
 b. ____crawled to the door.
 
 
-S->NP VP
-VP->V (NP)
+S → NP VP
+VP → V (NP)
 
 Our three new noun phrase
-NP->(D) (A) N
-NP->Pronouns
-NP->Name
+NP → (D) (A) N
+NP → Pronouns
+NP → Name
 
 NEW
-PP->P NP
+PP → P NP
 
-S-> NP VP (PP)
-VP->  V (NP) (PP)
+S →  NP VP (PP)
+VP →   V (NP) (PP)
 
 ------------------------------------
 
 New Grammar
-S-> (D) (A) N
-VP-> V (NP) (PP)
+S →  (D) (A) N
+VP →  V (NP) (PP)
 
-NP->(D) (A) N
-NP->Pronouns
-NP->Name
+NP → (D) (A) N
+NP → Pronouns
+NP → Name
 
 
 Deg must have an A immediately to its right.
 
 proposed
 
-AP->(Deg) A
+AP → (Deg) A
 
 Imagine the grammar as a lean machine.
 Try to say a generalization once.
 
 
 more new Grammar
-S-> (D) (A) N
-VP-> V (NP) (AP) (PP)
-AP-> (Deg) A
-NP->(D) (A) N
-NP->Pronouns
-NP->Name
+S  →  NP VP
+VP →  V (NP) (AP) (PP)
+AP →  (Deg) A
+PP → P NP
+NP → (D) (A) N
+NP → Pronouns
+NP → Name
