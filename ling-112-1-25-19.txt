@@ -1,0 +1,53 @@
+Jan 18 2019
+Ling 112 Syntax I
+Pranav Anand
+panand@ucsc.edu
+
+(a)* D Poss
+(c1)* the's hamster died.
+
+(b)* Poss D
+(17)* the snake['s the] eye glittered.
+
+(c)* AP NP Poss N
+(15)* Morgan bought blue jane's stapler. (blue is supposed to modify stapler not jane)
+
+(d)* D NP Poss
+looks at (1)
+
+(e)* NP Poss D
+produces same issue as (b)
+
+Poss must be immediatly after an NP
+(9) Lee's fat hamster died.
+(c3)* 's fat hamster died.
+(c4)* Dog's fat hamster died. (dog is not a name)
+(c5)John saw Lee's fat hamster.
+(c6)* john saw's fat hamster.
+
+brown is a modifier because it is essentially an & statement
+fido is a brown dog
+fido is a dog & fido is brown
+
+(1) can use Names for NP since they cant be N
+
+ex.
+(18)*The The snake's eye glittered
+     D    D    N  Pos  N   V
+            NP
+(c2)*The   jane's   eye glittered
+     D       NP Poss  N   V
+
+
+D and Poss cant occur at the same time.
+they both ocupy the same spot.
+they both describe a NP
+They have the same limits
+
+cant have AP NP Poss because and NP has to be between a N and a Poss
+
+some parts of speech can occupy the same spot where you have to choose one of the other. usually syntactitions do like below but where instead of bracket on each line its one large bracket covering all three lines. for our class we will do something like below.
+
+      {D}
+NP -> {NP Poss}
+      {something else}
