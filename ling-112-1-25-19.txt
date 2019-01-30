@@ -1,7 +1,23 @@
-Jan 18 2019
+Jan 25 2019
 Ling 112 Syntax I
+
+Professor
 Pranav Anand
 panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
 
 (a)* D Poss
 (c1)* the's hamster died.

@@ -1,0 +1,68 @@
+Jan 30 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+Constituents are a group of words in a tree that are all under the same branch.
+
+NOTE: plug trees A and B into the online syntax tree site to get a visual
+
+Using the sentence The woman in the back row
+So in A the possible constituents are as follows:
+1.  in the back row
+2.  the woman in the back row
+3.  behind the woman in the back row
+4.  the performer behind the woman in the back row
+
+A
+[NP
+  [NP The performer]
+  [PP
+    [P behind]
+    [NP
+      [NP the woman]
+      [PP
+        [P in]
+        [NP the back row]
+      ]
+    ]
+  ]
+]
+
+So in B the possible constituents are as follows:
+1.  the performer
+2.  behind the woman
+3.  the back row
+4.  the performer behind the woman
+5.  the performer behind the woman the back row
+
+B
+[NP
+  [NP
+    [NP the performer]
+    [PP
+      [P behind]
+      [NP the woman]
+    ]
+    [PP
+      [P in]
+      [NP the back row]
+    ]
+  ]
+]
