@@ -66,3 +66,45 @@ B
     ]
   ]
 ]
+
+For tree A the logic goes as follows
+
+performer is behind the woman and the woman is in the back row
+
+*"in the back row" is modifying "the woman"
+*"behind the woman in the back row" is modifying "the performer"
+
+performer -> woman
+              ^
+          in the back row
+
+
+For tree B the logic goes as follows:
+
+The performer is in the back row and ins behind the woman
+
+[[performer in back row] behind woman]
+
+*"in the back row" is modifying "the performer behind the woman"
+*"behind the woman" is modifying the performer
+
+
+be careful when asking constituent questions. just delete words from the sentences and dont move words around other wise your testing a different sentence.
+
+ambiguois. works for both trees logically
+Q: who behind the woman in the back row shouted?
+A: The performer.
+
+unambigous only logically works with tree B
+Q: who in the back row shouted?
+A: the performer behind the woman.
+
+
+if you replace "performer behind the woman" with "who"
+who targets NP's
+
+you can not replace "the woman in the back row" with who
+with out restructuring the sentence which you can not do.
+you create "islands"
+
+you cant form certain questions without creating islands or rebuilding sentences.
