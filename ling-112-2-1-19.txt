@@ -1,0 +1,142 @@
+Jan 30 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+Office hours will be different for the next 2 weeks.
+
+dislike, V, __ NP
+
+procedure for building a sentence
+(1) structure building. use our grammar rules
+(2) lexical insertion. Insert words from our lexicon paying attention to the syntactic restriction. ex. rug, V dave, Name to, P
+
+sub-categorization requirements are not defining the word itself but instead what is around the word.
+
+The brackets mean that PP must be what is the PP
+rely, V, __ PP[on]
+
+relational nouns are nouns that can be followed by of with another NP following that
+RN -> of -> NP
+
+ocean, N, __(PP[of])
+
+the sub cat rules are the wastebasket of Syntax
+they are where you put things that cant be generalized
+
+with our current PP rule there is not optionality so we dont need to do
+  to, P, __ NP
+
+the brackets mean that PP must be what is the PP
+rely, V, __ PP[on]
+compliments are always to the right.
+
+
+used as modifiers. PPs can be swapped with each other in this case
+NP -> NP PP
+
+these are always modifiers
+-Location
+-times
+-causes
+-attributes
+
+these PP can not be recursive or swapped with other PP. ex. prof. of physics
+VP -> (NP)(AP)(PP)
+
+
+sister of basic thing, N, V, are complements
+sisters of groups, NP, VP, are modifiers
+
+
+Auxilary verbs
+
+only 3 verbs in a row
+
+
+_______ |_____ |__ V
+        |      |
+might   |have  |be
+could   |      |
+should  |      |
+may     |      |
+        |      |
+AUX3    |AUX2  |AUX1
+each of these are their own lexical type
+
+Form rules
+AUX3 requires a bare verb after it EX. might be
+AUX2 requires a -EN verb after it  EX. have been
+AUX1 requires a -ING verb after it EX. be taking
+
+so our rule would be
+
+VP -> (AUX3)(AUX2)(AUX1)V(NP)(AP)(PP)
+
+Most English verbs have six forms: three finite forms (present singular,
+present plural, past) and three nonfinite forms (the bare form, the -ING form,
+and the -EN form). Some examples are given below.
+
+Pres. Sg. is/am    gives  rings   goes  talks   smiles  buys   brings   has
+Pres. Pl. are      give   ring    go    talk    smile   buy    bring    have
+Past      was/were gave   rang    went  talked  smiled  bought brought  had
+Bare      be       give   ring    go    talk    smile   buy    bring    have
+-ING      being    giving ringing going talking smiling buying bringing having
+-EN       been     given  rung    gone  talked  smiled  bought brought  had
+
+
+Most current class grammar as follows:
+
+Our phrase structure rules are in (1):
+
+(1)
+    a. S→NP VP
+    b. VP→(AUX3) (AUX2) (AUX1) V (NP) (AP) (PP)
+    c. VP→VP (PP)← PPs for modifiers
+    d. AP→(Deg) A (PP)← PPs added for complements
+    e. PP→P NP
+    f. NP→({D})
+          ({PossP}) (AP) N (PP)← PPs added for complements
+    g. NP→{Pro}
+          {Name}
+    h.  NP→NP PP← PPs stay for modifiers
+    i. PossP →NP Poss
+
+Our form rules are in (2), based on the term verbal element, which is defined in (3)
+
+(2)
+
+a.AUX3 rule:
+Pleace the feature BARE on a verbal element immediately to the right of an AUX3.
+
+b. AUX2 rule:
+Pleace the feature EN on a verbal element immediately to the right of an AUX2.
+
+c. AUX1 rule:
+Pleace the feature ING on a verbal element immediately to the right of an AUX1.
+
+(3)A verbal element is an element of the syntactic categories V, AUX1, AUX2, or AUX3.
+
+Our derivational order is given in (4), with (4i) being the first step:
+
+(4)The order of derivations
+i.   structure building
+ii.  lexical insertion
+iii. form rules
+iv.  spell out

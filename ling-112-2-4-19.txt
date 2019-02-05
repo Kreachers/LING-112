@@ -1,0 +1,127 @@
+Feb 4 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+
+The proper way to add the subscript BARE in our tree is it should look dislike
+[V tree_[BARE]]
+
+This is how you put brackets in the tree itself
+[V tree_\[BARE\]]
+
+
+TYPES OF SENTENCES
+  declarative sentence: a statement(make a claim about the world)
+  interrogative sentence: a question(requests information)
+    - polar questions: yes-no questions
+    - wh- questions: who what when where etc questions
+
+
+DIFFERENCES BETWEEN QUESTIONS
+what questions replace something in the sentence
+yes no questions shift auxiliary verbs around from the VP to the beginning of the sentence.
+At least with our current questions.
+
+(4)
+a. the boy could eat his dinner
+
+b. could the boy eat his dinner?
+c. what could the boy eat?
+c'. *what could the boy eat his dinner?
+d. where could the boy eat?
+e. why could the boy eat his dinner?
+
+
+YES/NO QUESTIONS
+
+(1)should he leave?
+(2)should he have left?
+(3)should he be leaving?
+
+
+AUX verbs can be separated from their verb groups and moved to the front.
+
+we will ignore form rules for now.
+
+possible correct layouts
+
+AUX3 NP AUX2 AUX1 V
+AUX3 NP AUX2      V
+AUX3 NP      AUX1 V
+AUX3 NP           V
+
+AUX2 NP      AUX1 V
+AUX2 NP AUX2      V
+
+AUX1 NP           V
+
+potential new rules
+
+S-> AUX1 NP VP
+S-> AUX2 NP VP
+S-> AUX3 NP VP
+
+these allow us to generate all our our yes/no questions
+but it also allows us to generate ungrammatical questions (6)
+
+(6) *should he should be leaving?
+(7) *he should should be leaving?
+(8) *should he should should be leaving?
+
+MORE DIFFERENT RULES
+
+S → AUX3 NP ?P
+?P → (AUX2) (AUX1) V (NP) (AP) (PP)
+
+this allows us to generate some question but not all.
+
+we could create another rules
+
+S → AUX1 NP ?P
+
+this over generates. but it on the right track.
+
+
+lets name our ?P and create more of them
+
+S → AUX1 NP VP1
+VP1 → V (NP) (AP) (PP)
+
+S → AUX2 NP VP2
+VP2 → (AUX1) V (NP) (AP) (PP)
+
+S → AUX3 NP VP3
+VP3 → (AUX2) (AUX1) V (NP) (AP) (PP)
+
+SECTION
+
+the rule that requires the next word to be BARE is a vacuous rule. it doesn't look like it has been applied but is has.
+
+
+frames for aux verbs?
+there arent very many in English. just memorize them
+
+
+KEEP IN MIND FOR FUTURE HOMEWORKS
+
+donald trolls the libs.
+donald trolled the libs.
+
+There is a hidden thing between donald and troll that effects their tense.
