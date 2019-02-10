@@ -1,0 +1,38 @@
+Feb 6 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+When testing for if a PP is a modifier or a complement
+always start with assuming it is a modifier and test if
+you can swap places with another modifier.
+
+
+proposed rule:
+aux2:
+place EN on the first V/AUX thats the daughter of the VP of that VP is following AUX2.
+
+this works for all of our currect sentences we have go over.
+it breaks down with sentences where the v/aux we need to change is after another v. Such as "Has the person who is reading their book been fishing?"
+
+"the person who is reading their book" is a NP known as a relative clause.
+we will go over relative clauses at a later date.
+
+If a tree has the form AUX2 NP VP, place EN on the first verbal element in the VP.
+this rule works much better.

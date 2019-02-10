@@ -57,6 +57,10 @@ these are always modifiers
 -causes
 -attributes
 
+ADDED feb 6:
+  -manners/instruments
+  the manner that something is used
+
 these PP can not be recursive or swapped with other PP. ex. prof. of physics
 VP -> (NP)(AP)(PP)
 
@@ -107,8 +111,8 @@ Our phrase structure rules are in (1):
 
 (1)
     a. S→NP VP
-    b. VP→(AUX3) (AUX2) (AUX1) V (NP) (AP) (PP)
-    c. VP→VP (PP)← PPs for modifiers
+    b. VP→(AUX3) (AUX2) (AUX1) V (NP) (AP) (PP)← PPs for complements
+    c. VP→VP (PP)     ← PPs for modifiers
     d. AP→(Deg) A (PP)← PPs added for complements
     e. PP→P NP
     f. NP→({D})

@@ -1,0 +1,288 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+Transformations
+
+Allows us to generate new sentences without adding more
+rules to our PS
+
+This is similar to what I chose to do in the homework.
+
+(1) Polar Question Transformation
+    For an input tree of the form [S NP [VP AUX … ] ],
+    make the first AUX in VP the first daughter of S,
+    outputting a tree of the following form:
+    [S AUX NP [VP … ] ]
+
+(2) The new order of derivations
+  i.    structure building
+  ii.   lexical insertion
+  iii.  form rules
+  iv.   Polar Question Transformation
+  v.    spell out
+
+The idea is to start with a declarative sentence and then
+apply the transformation (1) to turn it into a
+polar question.
+
+(3) Has he been eating the broccoli?
+
+and after applying the transformation we get
+
+(4) He has been eating the broccoli.
+
+We start with structure building
+(5)
+  a.[S
+      [NP
+        [PRO X]
+      ]
+      [VP
+        [AUX-have X]
+        [AUX-be X]
+        [V X]
+        [NP
+          [D X]
+          [N X]
+        ]
+      ]
+    ]
+
+and then do lexical insertion
+(5)
+  b.[S
+      [NP
+        [PRO he]
+      ]
+      [VP
+        [AUX-have have]
+        [AUX-be be]
+        [V eat]
+        [NP
+          [D the]
+          [N broccoli]
+        ]
+      ]
+    ]
+
+Next we apply our form rules
+
+(6)   a.    AUX-have rule:
+            Place the feature EN on a verbal element
+            immediately to the right of an AUX-have.
+            AUX-have {V, AUX} → AUX-have {V, AUX} EN
+
+b.    AUX-be rule:
+            Place the feature ING on a verbal element
+            immediately to the right of an AUX-be.
+            AUX-be V → AUX-be V ING
+
+applying those rules gets us:
+(7)
+  [S
+    [NP
+      [PRO he]
+    ]
+    [VP
+      [AUX-have have]*3rd, sg*
+      [AUX-be be_EN]
+      [V eat_ING]
+      [NP
+        [D the]
+        [N broccoli]
+      ]
+    ]
+  ]
+
+But we have two new form rules. One of which was discussed
+in class of the rules explains why we spell out AUX-have
+as has and not have, and that rule states that we copy the
+person and number specification from the NP sister of VP
+(or, the subject of the sentence) to the first verbal
+element in the VP. We called this Subject-Verb Agreement,
+and I’ve provided its specification in (8):
+
+(8)  Subject-Verb Agreement:
+      In a tree of the form [S NPA-person, B-number VP ],
+      place the features A-person and B-number on the
+      first verbal element in the VP.
+      [S NP_(A-person, B-number) [VP {V, AUX}...]] →
+      [S NP_(A-person, B-number) [VP {V, AUX}_(A-person, B-number) ...]]
+
+To apply this we look at the NP in (7) which is he.
+this NP is singular(abbreviated sg) and its 3rd person.
+So what (8) says is that the first verbal element in (7),
+which is AUX-have, will copy over the person feature 3rd
+and the number feature sg from the NP subject.
+These features from from the subject of the NP, in this
+case its the lexical item he. That is, he comes from the
+lexicon with these features and what this means is that
+the correct input tree to the form rules isn’t (5b) but
+(9a). Correspondingly, after application of the two AUX
+rules and Subject-Verb Agreement, we get the tree in (9b).
+The only difference between (9b) and (7) is that we’ve
+added the person and number specifications to AUX-have.
+(9)
+  a.[S
+      [NP
+        [PRO he_(3rd, sg)]
+      ]
+      [VP
+        [AUX-have have]
+        [AUX-be be]
+        [V eat]
+        [NP
+          [D the]
+          [N broccoli]
+        ]
+      ]
+    ]
+(9)
+  b.[S
+      [NP
+        [PRO he_(3rd, sg)]
+      ]
+      [VP
+        [AUX-have have_(3rd, sg)]
+        [AUX-be be]
+        [V eat]
+        [NP
+          [D the]
+          [N broccoli]
+        ]
+      ]
+    ]
+
+The other new form rule is one I just added this evening
+because it’s been bugging me so much as a semanticist.
+We’ve now handled agreement on the verb, but it’s not just
+agreement that gets us the form of the verb. It’s also the
+tense of the verb. Tense is a category that indicates when
+something happened. If the eating event were in the past,
+we would use had, but if it were in the present, we’d end
+up with has. So tense is important to mark here because it
+affects the morphology of the verb, just like person and
+number.
+
+
+Where does tense come from in a sentence? We don’t
+currently have a good answer to this. That’s ok. All I
+want is a feature to represent present or past. My
+(admittedly non-optimal) idea is to use another form rule.
+Now, that’s not a great idea because what we’ve seen so
+far is that form rules add morphological features to some
+expression based on the identity of some neighboring
+expression. In this case, I’m going to use it to add a
+feature based on nothing at all. Worse, the features we’ve
+been adding are purely morphological/phonological. They
+don’t influence meaning. But the tense specification for a
+sentence affects the meaning, for sure!
+
+
+So, with all those arguments against a tense form rule,
+I’m going to implement one anyway, just so we can mark
+tense. We’ll sort all of this out later. Anyway, the form
+rule is in (10):
+
+(10)  Tense Specification:
+      In a tree of the form [S NP VP ], place either the
+      feature +PAST or -PAST(for present) on the first
+      verbal element in the VP.
+      [S NPA-person, B-number [VP {V, AUX}...]  ] →
+      [S NPA-person, B-number [VP {V, AUX}_{+PAST, -PAST} ...]  ]
+
+There are two things to note about this rule. First, the
+feature in question is +PAST or -PAST (for present). The
+second is that whereas we usually give a condition for
+putting a feature, here we just say to add one or the
+other. No restrictions except that you can only add one.
+So, in order to generate (4), we add the feature -PAST. If
+we added +PAST, AUX-have would be spelled out as had.
+
+Given the result of this feature, the input to the form
+rules is (9a), and the output isn’t (9b) but (11), where
+AUX-have bears three features, 3rd and pl via agreement
+with the subject he and -PAST via Tense Specification.
+
+(11)
+  b.[S
+      [NP
+        [PRO he_(3rd, sg)]
+      ]
+      [VP
+        [AUX-have have_(3rd, sg,-PAST)]
+        [AUX-be be]
+        [V eat]
+        [NP
+          [D the]
+          [N broccoli]
+        ]
+      ]
+    ]
+
+If (11) were spelled out, it would yield (12) below, where
+the item of interest is AUX-have, which because of 3rd,
+pl, and -PAST is spelled out as has. And (12) is (4), as
+we wanted.
+
+(12) He has been eating the broccoli.
+
+
+But we are deriving (3), not (4), so we have to keep
+going. Our final step is an application of the Polar
+Question Transformation in (1), which I’ll repeat:
+
+(1) Polar Question Transformation
+    For an input tree of the form [S NP [VP AUX … ] ],
+    make the first AUX in VP the first daughter of S,
+    outputting a tree of the following form:
+    [S AUX NP [VP … ] ]
+
+So if we are applying (1), we have to ask whether the
+transformation can apply, which is asking whether the
+input conditions for (1) are met. (1) requires a sentence
+of the form NP VP, where the VP’s first daughter is an
+auxiliary. (11) is of this form. It has a NP subject he
+and a VP has been eating the broccoli. Moreover, the VP
+starts with an AUX, has. These are the conditions (1)
+requires.
+
+So what (1) says to do is to move that AUX to the start of
+the S (as a daughter of the S). Doing this yields (13),
+where AUX-have is now the first daughter of S and AUX-be
+is now the first daughter of VP.
+
+(13)
+
+
+
+Now, how is (13) spelled out? Well, we saw that have3rd,pl,-PAST is spelled out as has, so this means (13) is spelled out as in (14)
+
+(14)	Has he been eating the broccoli?
+
+And this is (3), which was our goal all along!
+
+Now, I moved a bit slow over everything just now because I
+wanted to introduce transformations and our new form
+rules. In your case, I think you want a more streamlined
+discussion: structure building, lexical insertion, form
+rules (all of them at once), and the transformation (if
+applicable), and then spell out.
