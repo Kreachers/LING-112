@@ -102,7 +102,7 @@ applying those rules gets us:
       [PRO he]
     ]
     [VP
-      [AUX-have have]*3rd, sg*
+      [AUX-have have_(3rd, sg))]
       [AUX-be be_EN]
       [V eat_ING]
       [NP
@@ -229,8 +229,8 @@ with the subject he and -PAST via Tense Specification.
       ]
       [VP
         [AUX-have have_(3rd, sg,-PAST)]
-        [AUX-be be]
-        [V eat]
+        [AUX-be be_EN]
+        [V eat_ING]
         [NP
           [D the]
           [N broccoli]
@@ -271,7 +271,20 @@ where AUX-have is now the first daughter of S and AUX-be
 is now the first daughter of VP.
 
 (13)
-
+[S
+  [AUX-have have_(3rd, sg,-PAST)]
+  [NP
+    [PRO he_(3rd, sg)]
+  ]
+  [VP
+    [AUX-be be_EN]
+    [V eat_ING]
+    [NP
+      [D the]
+      [N broccoli]
+    ]
+  ]
+]
 
 
 Now, how is (13) spelled out? Well, we saw that have3rd,pl,-PAST is spelled out as has, so this means (13) is spelled out as in (14)
