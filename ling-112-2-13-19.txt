@@ -1,0 +1,78 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+invite, V, ___NP
+reveal, V, ___NP(PP[to])
+
+(9-10) Those impossible guests, we may have invited (*the people)
+(16-17) Those facts you should reveal the significance of (*your query) to clay.
+(18-19) clay, you should reveal the significance of those facts to (*margie)
+
+single line forms
+*John invited.
+John invited Mary.
+John invited *(Mary)
+
+{have}
+{had}
+{have,had}
+
+
+(9) we may have invited those impossible guests.
+
+S[
+  NP[Pro[ We]]
+  VP[
+    Aux-mod[ may]
+    Aux-have[ have]
+    V[ invite]
+    NP[
+      D[ those]
+      AP[ A[ impossible]]
+      N[ guests]
+    ]
+  ]
+]
+
+(16) you should reveal the significance of those facts to clay.
+
+S[
+  NP[ Pro[ you]]
+  VP[
+    Aux-mod[ should]
+    V[ reveal]
+    NP[
+      D[ the]
+      N[ significance]
+      PP[
+        P[ of]
+        NP[
+          D[ those]
+          N[ facts]
+        ]
+      ]
+    ]
+    PP[
+      P[ to]
+      NP[ Name[ clay]]
+    ]
+  ]
+]

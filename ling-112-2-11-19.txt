@@ -1,0 +1,39 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+
+transformation rules can affect NP as well as VP
+
+SECTION:
+Hypotheses 1:
+
+1. Move PP sister of v to be the first daughter of S
+2. Move NP daughter S immediately to the right of the V to be the sister of V
+
+Step 2 is necessary if the verb normally requires something to follow it
+such as verbs like be.
+
+Hypotheses 2:
+
+1. simultaneously move PP sister of V and NP daughter of S to each others side of the tree
+
+Multipart transformation rules allow you to partially apply the rules like Hypotheses 1.
+This allows you to limit the application of parts a rule to a specific subclass of verbs.
