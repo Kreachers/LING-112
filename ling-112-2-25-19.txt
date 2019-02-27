@@ -1,0 +1,159 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+New tutoring hours:
+
+Monday 2:40-3:40 PM
+Tuesday 5:20-6:20 PM
+Wednesday 1:20-2:20 PM
+Wednesday 4:00-5:00 PM
+
+
+
+S-> NP VP
+VP -> (AUX-mod) (AUX-have) (AUX-be) V (NP) (AP) (VP)
+NP -> ({D})     (AP) N (PP)
+      ({PossP})
+AP -> (Deg) A
+
+
+
+(1) He could have devoured the beans or have eaten the rice.
+
+
+coordination scehema
+
+X -> X Conj X
+where X is of any lexical/phrased catagory
+
+we consider could as part of the first VP and that allows us to generate this sentence. we could say could is not in the first VP but then we couldnt generate the sentence because we cant have a aux-mod outside of the VP.
+
+if we had could in the first VP we cant swap the VP's without running into form problems or subject verb agreement.
+
+we can swap could for will and or with and and put in in context so that we can make the sentence feel more natural.
+
+(1b)  He will have devoured the beans and have eaten the rice.
+
+in the context of an eating competition we have we can say the by the time he has devoured the beans he will have already eaten the rice.
+
+
+
+
+we can create many sentences that mean roughly teh same thing. this is one of the most interesting questions in production of a sentence. theres a reason people say things the way they do.
+
+
+we can drop the have in the second vp and still come to the same conclusion.
+
+
+(2)  He will have devoured the beans and be starting the pozole.
+
+
+we can create sub cat rules for out aux verbs and change out VP rules.
+
+VP -> V (NP)(AP)(PP)
+VP -> {AUX-mod}   VP
+NP -> AP NP
+AP -> (Deg) A (PP)
+      {AUX-have}
+      {AUX-be}
+
+subcat rules
+
+could, AUX-mod, ___ VP[-AUX-mod, AUX-have, AUX-be]
+have, AUX-have, ___ VP[-AUX-mod, -AUX-have, AUX-be]
+be, AUX-be, ___ VP[-AUX-mod, -AUX-have, -AUX-be]
+
+where what is in the brackets is the head of the VP
+
+
+and lets consider how we get our tense in a sentence. at the moment we just assume but if we created a new rules where we have a T lexical catagory and a TP.
+
+
+S -> NP TP
+TP-> T VP
+
+
+
+
+
+
+--------------------SECTION NOTES----------------
+
+No homework
+
+
+Puzzle
+(1) the beutiful big white dog is fluffy.
+(2) The boy had a terrible, horible, very long day.
+
+
+Y's Hypothesis
+
+NP -> (D) (AP) N (PP)      <- pre existing rule
+NP -> AP NP
+AP -> (Deg) A (PP)
+
+This allows us to generate sentences 1 and 2 but doesnt allow us to consider Determiners. we can generate sentences like "the very big the very fluffy dog" which isnt a very good sentence
+
+
+
+coordination/conjunction schema
+
+X -> X Conj X
+where X is of any lexical/phrased category
+
+
+(3) the beautiful big white dog and the ugly small pink cat died.
+(4) beautiful big white dog and ugly small pink cat died.
+(5) the beautiful big white dog and cat died.
+
+3 and 4 are nearly identicul other then the the missing in the second X and 5 is ambiguous its intended to mean both the dog and cat are beautiful big and white.
+
+3 we have NP conjunction
+
+5 we have N conjunction
+
+4 is not small enough to be N level but isn't quiet a NP level.
+
+
+--------------SPOILER----------------
+there is a level between N and NP levels called x'(X prime or X bar with a bar over the X)
+this is what we are building to
+
+-------------------------------------
+
+so 4 is an N' conjunction
+
+suppose [ugly small pink cat] is an N' and [beautiful big white dog] is also and N' because we need the same thing on both sides of the conjunction.
+
+so our rules would have to become
+
+NP -> (D) N'
+N' -> AP N'
+N' -> N
+
+doing this we have effectively removed the D from our recursive Structure.
+
+adjunct/modifier is where the mother and sister are the same type.
+
+for example the AP in our rules is an adjunct becuase its mother is an N' and its suster is an N's
+
+specifier is daughter of the XP and sister of X'

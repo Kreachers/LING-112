@@ -1,0 +1,141 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+Gabbis transformation
+
+1. Find the initial AUX daughter of VP
+2. Move that AUX to be the first daughter of S
+3. ADD NP_[TH] as the first daughter of S
+
+
+lets see how to generates some sentences
+
+1. a. There should be a cat on the mat.
+   b. There should a cat on the mat.
+
+2. a. There is a boy running.
+   b. There should be a boy running.
+
+
+
+lets do gabbi's transformation
+
+1. Find the initial AUX of VP
+2. Move the AUX to be the first daughter of S
+3. ADD NP_[TH] as the first daughter of S
+
+start with our original tree and find the AUX verb and move it to the front of the S
+this is the first 3 of our derivation steps
+[S
+  [NP_[3rd, single]
+    [D a]
+    [N boy]
+  ]
+  [VP
+    [AUX-be_[3rd, single,+past] be]
+    [V run_[ing]]
+  ]
+]
+
+[S
+  [AUX-be_[3rd, single,+past] be]
+  [NP_[3rd, single]
+    [D a]
+    [N boy]
+  ]
+  [VP
+    []<- doesnt mean anything just shows that the AUX was here
+    [V run_[ing]]
+  ]
+]
+
+Next step 3, add there on the front of the S:
+
+[S
+  [NP_[TH] There]
+  [AUX-be_[3rd, single,+past] be]
+  [NP_[3rd, single]
+    [D a]
+    [N boy]
+  ]
+  [VP
+    [V run_[ing]]
+  ]
+]
+
+this works for 2a. but doing this for 2b we get
+*there should a boy be running.
+which this is where this breaks down
+
+we will see that There must be followed by all of the AUX verbs in the S.
+
+there is two ways we can say this.
+
+1. we move each of the AUX verbs moved to the front of the sentence
+2. we move the NP to the other side of the AUX verbs
+
+
+technical definitions
+
+the subject of a sentence is the NP daughter of S
+The object in a sentence is the NP complement of V in VP
+the object of a preposition is the NP complement of P in PP
+
+knowing this we can reword gabbis transformation
+
+1. find the NP subject of S
+2. move NP subject to be a daughter of VP immediately after AUX-be
+3. ADD NP_[TH] as the first daughter of S
+
+
+using this new transformation lets look at 2b
+
+this is our deep structure
+[S
+  [NP_[3rd, single]
+    [D a]
+    [N boy]
+  ]
+  [VP
+    [AUX-mod should_[3rd, single,+past]]
+    [AUX-be be_bare]
+    [V run_[ing]]
+  ]
+]
+
+this is our shallow structure
+[S
+  [NP_[TH] There]
+  [VP
+    [AUX-mod should_[3rd, single,+past]]
+    [AUX-be be_bare]
+    [NP_[3rd, single]
+      [D a]
+      [N boy]
+    ]
+    [V run_[ing]]
+  ]
+]
+
+you can see we removed our subject of our sentence and then added in a new one.
+
+
+one of the flaws with this transformation is the its not just AUX-be its also main verb be. so when moving our subject you don't just move the NP after the AUX-be but also V be, which ever is first

@@ -1,0 +1,217 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+1. The kids were eating.
+2. The coyotes have devoured the chickens.
+3. Sam invited Lee to the party.
+4. Tracy will receive the message.
+5. Every student should admire Mario.
+6. The guests arrived.
+7. They were sleeping.
+
+8. Nachos were being eaten.
+9. The chickens have been devoured.
+10. Lee was invited to the party.
+11. The message will be received.
+12. Mario should be admired.
+13. *The party was arrived.
+14. *They were being slept.
+
+when you have both the AUX -be and main verb be in a sentence you put the NP in between them.
+
+
+3 There topicalization
+10 Therifization
+3 There NP transformation
+5 Greg
+
+
+sentences 1-7 are sentences we can currently generate with our grammar.
+Therifization doesnt like when the NP is a NAME, PRONOUN, and NP starting with D
+
+deep structure for 10
+Structure building and Lexical insertion
+
+[S
+  [NP
+    [NAME Lee]
+  ]
+  [VP
+    [AUX-be was]
+    [V invited]
+    [PP
+      [P to]
+      [NP
+        [D the]
+        [N party]
+      ]
+    ]
+  ]
+]
+
+recreateing the tree without lexical insertion
+
+
+[S
+  [NP
+    [NAME_[3rd, sg] Lee]
+  ]
+  [VP
+    [AUX-be_[+past, 3rd, sg] was]
+    [V_[ing] inviting]
+    [PP
+      [P to]
+      [NP
+        [D the]
+        [N party]
+      ]
+    ]
+  ]
+]
+
+and that gives us
+*Lee was inviting to the party
+
+which isn't 10 and is also ungrammatical.
+
+looking at each of the sentences we can notice the verbs following AUX-be arent having the form rules applied properly.
+
+we also notice that we have verbs that both require a NP and require there to not be an NP. some of the verbs like invited require the subject to be the inviter and the object to the the invitee. and at the same time the subject is the invitee in a different context.
+we dont want to create a lot of different subcat rules like below
+
+admire,V, __ NP
+
+subject= admirer
+object= admiree
+
+admire,V, __ (PP)
+
+subject= admiree
+
+not all verbs are like this like sleep and arrived.
+
+
+deep structure for 10
+Structure building and Lexical insertion
+
+[S
+  [NP
+    [NAME Lee]
+  ]
+  [VP
+    [AUX-be was]
+    [V invited]
+    [PP
+      [P to]
+      [NP
+        [D the]
+        [N party]
+      ]
+    ]
+  ]
+]
+
+deep structure for 3
+Structure building and Lexical insertion
+
+[S
+  [NP
+    [NAME Sam]
+  ]
+  [VP
+    [V invited]
+    [NAME Lee]
+    [PP
+      [P to]
+      [NP
+        [D the]
+        [N party]
+      ]
+    ]
+  ]
+]
+
+given the structure for 3 in order to get to 10 we have to have a transformation
+
+step 1:
+get rid of subject
+
+[S
+
+  [VP
+    [V invited]
+    [NAME Lee]
+    [PP
+      [P to]
+      [NP
+        [D the]
+        [N party]
+      ]
+    ]
+  ]
+]
+
+step 2:
+Move NP object to subject postiaion of S
+
+[S
+  [NP
+    [NAME Lee]
+  ]
+  [VP
+    [V invited]
+    [PP
+      [P to]
+      [NP
+        [D the]
+        [N party]
+      ]
+    ]
+  ]
+]
+
+step 3:
+Add AUX-be in VP in from on main V
+
+[S
+  [NP
+    [NAME Lee]
+  ]
+  [VP
+    [AUX-be be]
+    [V invited]
+    [PP
+      [P to]
+      [NP
+        [D the]
+        [N party]
+      ]
+    ]
+  ]
+]
+
+this is almost right
+we got the wrod order right
+the syntax right
+
+we dont have the tense and verb agreement right
+
+we will talk more about this next class

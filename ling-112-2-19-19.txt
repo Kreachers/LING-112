@@ -1,0 +1,102 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+--------------------SECTION NOTES-----------------------------------------------
+
+pretend wh words like who or what are noun phrases
+
+can we generate these sentences?
+
+1. who is wearing 5 inch stiletos?
+2. who has been doing?
+3. who sings backstreet boys in korean?
+4. who has a cat?
+
+yes but there is actually string transformation, its just string vacuous movement.
+
+5. could she have been looking for her child?
+6. could they have been going at it?
+7. is out family having a reunion?
+8. is syntax difficult?
+9. *does syntax be difficult?
+10. *do syntax be difficult?
+11. *has she some money?
+12. does she have some money?
+13. *do she has some money?
+14. *does he the dishes?
+15. does he do the dishes?
+16. do he does the dishes?
+
+Deep structure of 5 including form rules:
+  She could have been looking for her child.
+The transformation just moves the first aux to the front
+
+
+deep structure of 8 after form rules:
+  syntax is difficult
+the difference here is the words "be/is" is a main verb and not an aux verb
+
+
+Nora's hypothesis
+
+  change our transformation from first aux to first verbal element
+
+this over generates cause sentences like 9
+
+My and noras hypothesis
+
+  more the first aux or if there is no aux verb then move main verb be
+
+this is better but not great.
+
+noras new hypothesis
+
+  add do to the front of the sentences
+
+
+-----
+
+looking at sentence 11 and 12
+
+she has some money
+she does have some money
+
+we need to add a new transformation that adds do as the first AUX.
+then the hypothesis me and nora came up with works just fine.
+
+P-Q transformations
+
+theres an order that need to be followed here.
+
+1. insert do if theres no AUX's
+2. move first AUX or main verb be if there are no AUX's
+
+
+WH questions
+
+now consider sentences like
+
+17. what will i be wearing tomorrow?
+18. what have i been doing with my life?
+19. what does he sing in karaoke?
+
+
+we asserted earlier who and what are NP's
