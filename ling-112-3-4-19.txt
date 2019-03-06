@@ -1,0 +1,202 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+New actual tutoring hours:
+
+Monday 2:40-3:40 PM
+Tuesday 5:20-6:20 PM
+Wednesday 1:20-2:20 PM
+Wednesday 4:00-5:00 PM
+
+MSI email: akorozco@csc.edu
+
+(1) [People wondered] whether [the grass was wet]
+(2) [Everyone believed] that [the child was missing]
+
+[People wondered] [the grass was wet] [the child was missing] each can stand alone as sentences
+
+[Everyone believed] in this context is not a sentence.
+
+they would appear similar to conjuctions but works when they cant stand alone.
+
+it looks like  [the child was missing] and [the grass was wet] are complements of the verbs in their sentences
+
+(3) a. Everyone believed that the child was missing and that the grass was wet.
+    b. *Everyone believed that the child was missing and that the grass was wet.
+
+(4) a. he motivated the class
+    b. he motivated me
+    c. *he motivated the class me
+    d. he motivated me and the class
+
+if we tried to swap that for whether adn vise verse we run into ungrammatical sentences. this goes to show that we need sub cat rules to prevent that from happening. we can only have subcat rules for complements.
+
+(5) a. it surprised everyone that the crowd was enormous.
+    b. *it surprised everyone {that enormous crould}
+                             {the size of the crowd}
+    c. {that enormous crown}  surprised everyone
+       {the size of the crow}
+
+
+(6) people wonder {when} the child went missing
+                  {how}
+                  {where}
+                  {why}
+                  what went missing
+
+if we remove people wonder we get questions without did
+
+
+
+wonder,   V, __ CP[C_I]
+believed, V, __ CP[C_D]
+motivate, V, __ NP
+know,     V, __ CP
+
+that,     C_D(declarative),
+whether,  C_I(interrogative),
+if,       C_I(interrogative),
+
+C-drop rule
+C_D can get a NUll, circle with line through it, feature
+C_D -> C_D,NULL
+
+our new rules
+
+CP -> C S
+VP -> V (NP) (AP) (PP) (CP)
+
+
+from section we discovered the N' pronounced N bar can be written with a bar over the N
+its the inbetween steps of and N and an NP
+
+ex. NP -> D N'
+    N' -> N (PP)
+    N' -> N' (PP)
+
+
+--------------section notes--------------------
+
+X bar schema
+
+[XP
+  [ZP]
+  [X'
+    [X'
+      [X]
+      [YP]
+    ]
+    [WP]
+  ]
+]
+
+X = head
+YP = complement
+WP = adjunct/ modifier
+ZP = specifier
+
+
+if you move an XP it better move to a specifier.
+
+(A) the very small child wonders whether the mothers is swimming in the ocean.
+
+[TP
+  [NP
+    [D The]
+    [N'
+      [AP
+        [Deg very]
+        [A'
+          [A small]
+        ]
+      ]
+      [N'
+        [N child]
+      ]
+    ]
+  ]
+  [T'
+    [T_-past,-neg]
+    [VP
+      [V'
+        [V wonder > wonders]
+        [CP
+          [C'
+            [C whether]
+            [TP
+              [NP
+                [D the]
+                [N'
+                  [N mother]
+                ]
+              ]
+            ]
+            [T'
+              [T_-past,-neg]
+              [VP
+                [V'
+                  [V be > is]
+                  [VP
+                    [V'
+                      [V'
+                        [V swimming]
+                      ]
+                      [PP
+                        [P in]
+                        [NP
+                          [D the]
+                          [N'
+                            [N ocean]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+plug this into https://yohasebe.com/rsyntaxtree/# to get a visualization
+
+the TP on line 137 effects the following V give it the features
+
+the TP on line 153 effects the following V give it the features which effects the next V
+
+
+all the heads are to the left of their branch section
+
+
+b. I will ask which apple the mother would devour.
+b'.I will ask the mother would devour which apple
+c. The mother will devours the apple.
+c'. the mother will devour
+
+devour, V, __NP
+
+which apple probably originated as the sister of devour
+
+and given that the mother would devout the apple is a sentence we must have a CP

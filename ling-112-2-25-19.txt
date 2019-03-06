@@ -19,7 +19,7 @@ jpguevar@ucsc.edu
 Office hours: Tuesdays, 1:00 PM - 2:00 PM
 Location: Stevenson 237
 
-New tutoring hours:
+New possible tutoring hours:
 
 Monday 2:40-3:40 PM
 Tuesday 5:20-6:20 PM
@@ -66,15 +66,14 @@ we can drop the have in the second vp and still come to the same conclusion.
 (2)  He will have devoured the beans and be starting the pozole.
 
 
-we can create sub cat rules for out aux verbs and change out VP rules.
+we can create sub cat rules for our aux verbs and change out VP rules.
 
 VP -> V (NP)(AP)(PP)
-VP -> {AUX-mod}   VP
-NP -> AP NP
-AP -> (Deg) A (PP)
+VP -> {AUX-mod}  VP
       {AUX-have}
-      {AUX-be}
-
+      [AUX-be]
+AP -> (Deg) A (PP)
+NP -> AP NP
 subcat rules
 
 could, AUX-mod, ___ VP[-AUX-mod, AUX-have, AUX-be]
@@ -82,15 +81,18 @@ have, AUX-have, ___ VP[-AUX-mod, -AUX-have, AUX-be]
 be, AUX-be, ___ VP[-AUX-mod, -AUX-have, -AUX-be]
 
 where what is in the brackets is the head of the VP
+and a minus, -, in front of a an AUX mean that cant appear
 
 
-and lets consider how we get our tense in a sentence. at the moment we just assume but if we created a new rules where we have a T lexical catagory and a TP.
+
+
+and lets consider how we get our tense in a sentence. at the moment we just assume but if we created a new rules where we have a T lexical category and a TP.
 
 
 S -> NP TP
 TP-> T VP
 
-
+where our T category so far is just could.
 
 
 

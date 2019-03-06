@@ -1,0 +1,56 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+New actual tutoring hours:
+
+Monday 2:40-3:40 PM
+Tuesday 5:20-6:20 PM
+Wednesday 1:20-2:20 PM
+Wednesday 4:00-5:00 PM
+
+MSI email: akorozco@csc.edu
+
+
+Phase structure rules
+lexical insertion
+transformation
+
+determines word order. meaning is established in deep structure which is phase structure rule and lexical insertion. transformations just change word order.
+
+form rules
+are morphology
+
+form rules cant make something ungrammatical. they only change how a word is pronounced not what it means.
+
+
+creating a node in the deep structure with a feature is not the same as creating a transformation that says a node has a feature. The feature already having the feature in the deep structure effect the meaning of the sentence. a transformation applying a feature doesn't effect the meaning.
+
+the first aux is special. it bears tense and is the only ting to the left of the negations.
+
+there is a thing called ellipses that says you what you hear isnt always what you get.
+
+Bill[might[have[been[talking[to him]]]]]
+
+where you can pick a vp in the above "tree" and add the null, circle with line thgouh it, feature and then not pronounce it.
+
+that is vp ellipses. it happens in english but not in alot of other languages
+
+i dont think we will use this too much.

@@ -1,0 +1,108 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+New actual tutoring hours:
+
+Monday 2:40-3:40 PM
+Tuesday 5:20-6:20 PM
+Wednesday 1:20-2:20 PM
+Wednesday 4:00-5:00 PM
+
+MSI email: akorozco@csc.edu
+
+
+
+(5) a. I see john.
+    b. John sees {*I, me}.
+(6) a. She drives a car.
+    b. a car drives {*she, her}.
+(7) a. {he,*him} hits jane.
+    b. jane hits {*he, him}.
+
+we can see in these sentences that we use a different form for our NP depending on if its the subject or the object.
+
+we would show all the different forms for a pronoun in our lexicon but pronouns cant have a subcat frame because they cant have any sisters or more specifically no complements so there can be any subcat frame that dictate what its complement can or should be.
+
+to dictate what form we use we need a form rule or two.
+
+Nominative/subject form rule:
+
+in a tree structured like below we add the NOM feature to the object of the tree or the NP daughter of the S
+
+[S
+  [NP
+    [Pro_NOM]
+  ]
+  [VP]
+]
+
+Accusative/object form rule:
+
+in a tree structured like below we add the ACC feature to the object of the tree or the NP daughter of the VP
+
+[S
+  [NP]
+  [VP
+    [V]
+    [NP
+      [Pro_Acc]
+    ]
+  ]
+]
+
+
+there is also a genitive form rule that we may or may not use in the futrue
+where Null means you dont pronounce it
+Genitive form rule
+
+[PossP
+  [NP
+    [Pro_Gen]
+  ]
+  [Poss_Null]
+]
+
+
+(2') Have we been crying?
+(3') Are we laughing?
+(8) we cried?
+(8') did we cry?
+(8'') *cried we?
+
+(9) we didnt cry.
+(9') *we not cried.
+(9'') *we not cry.
+(9''') *we criedn't.
+
+(10) we aren't laughing.
+(11) we are not laughing.
+(12) *we not are laughing.
+
+(13) we havent been crying.
+(14) *we have been not crying.
+
+we can see in order to make a sentence negative we add a not or n't to the first aux
+
+the first AUX really matters
+
+
+it has tense
+it is where negation must follow
