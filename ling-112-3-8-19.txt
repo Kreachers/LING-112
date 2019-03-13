@@ -1,0 +1,174 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+New actual tutoring hours:
+
+Monday 2:40-3:40 PM
+Tuesday 5:20-6:20 PM
+Wednesday 1:20-2:20 PM
+Wednesday 4:00-5:00 PM
+
+MSI email: akorozco@csc.edu
+
+
+This is what i did for the homework. its not a transformation because it doesnt change the tree only the way we pronounce the words
+Form rule: Ragnarok
+
+In a tree of the form below
+
+[TP
+  [NP]
+  [T'
+    [T]
+    [VP
+      [
+        ...
+        [CP
+          [C'
+            [C for]
+            [TP
+              [NP]
+              [T' ...]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+Place a NULL feature on the embedded C and embedded subject
+resulting in the tree below
+
+[TP
+  [NP]
+  [T'
+    [T]
+    [VP
+      [
+        ...
+        [CP
+          [C'
+            [C for_NULL]
+            [TP
+              [NP_NULL]
+              [T' ...]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+This is the transformation verion of the form rule I proposed
+transformation: Ragnorok
+
+In a tree of the form below
+
+[TP
+  [NP]
+  [T'
+    [T]
+    [VP
+      [
+        ...
+        [CP
+          [C'
+            [C for]
+            [TP
+              [NP]
+              [T' ...]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+remove the embedded C and embedded subject
+resulting in the tree below
+
+[TP
+  [NP]
+  [T'
+    [T]
+    [VP
+      [
+        ...
+        [CP
+          [C'
+            [TP
+              [T' ...]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+
+With our knowledge we cant make any argument about why the we should use the form rule over the transformation rule.
+
+the transformation rule violates the x' schema because by removing the C under out C' rule, we are removing a head. It violates the TP PSR rule because we remove the NP in TP -> NP T' which we say is required.
+
+These matter only in the sense that we dont want to violate our X' schema because the x' schema is supposed to limit our transformations
+
+      in our X' schema
+      1. specifers are always on the left.
+      2. complements are always on the right
+      3. modifiers float on either side
+
+for this class we will go with the transformation :(
+
+
+(2) and (3) can be synominus depending on who you ask
+(4) and (5) are not synominus
+
+(2) Loki planned for himself to escape
+(3) Loki planned for him to escape.
+
+(4) Loki_i saw himself_i. "loki" and "himself" are coreferent, =
+(5) Loki_i saw him_j.     "loki" and" him" have disjoint reference, =/ !=
+
+we will use a subscript lower case letter on words that have reference.
+so in (4) loki and himself both have i implying they are coreferent
+and in (5) loki and him have different subscripts implying that are disjoint reference
+
+we can use the curly braces with this subscript indicator for showing multiple sentences on one line
+
+(6) Loki_i saw him_{*i,j} and himself_{i,*j,*k}
+
+this opens up the question of in the deep structure of (1) Loki planned to escape is (2) or (7) loki planned for loki to escape.
+
+
+now we can look at passive sentences and this transformation
+
+(8) a. Heimdall planned for someone to invite him
+    b. Heimdall planned for someone [to be invited]
+
+(8a) is the deep structure of (8b)
+
+Heimdall_i planned for someone_j to invite he_i     deep structure
+Heimdall_i planned for he_i to be invited           passive transformation on CP
+Heimdall_i planed to be invited                     transformation: Ragnarok

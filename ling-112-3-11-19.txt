@@ -1,0 +1,358 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+New actual tutoring hours:
+
+Monday 2:40-3:40 PM
+Tuesday 5:20-6:20 PM
+Wednesday 1:20-2:20 PM
+Wednesday 4:00-5:00 PM
+
+MSI email: akorozco@csc.edu
+
+
+
+  laugh   fall    murder  donate
+
+  shriek  faint   devour  transfer
+
+  jog     die     strike  send
+
+  talk    arrive  kiss    give
+
+(1) Heimdall_i planned for someone to invite him_i
+(2) Hiemdall_i planned to be invited
+
+Derivation of (1)
+Structure building
+
+T2
+[TP
+  [NP [Name ]]
+  [T'
+    [T_+PAST,-NEG]
+    [VP
+      [V'
+        [V ]
+        [CP
+          [C'
+            [C ]
+            [TP
+              [NP
+                [D ]
+                [N'
+                  [N ]
+                ]
+              ]
+              [T'
+                [T_fin ]
+                [VP
+                  [V'
+                    [V ]
+                    [NP
+                      [Pro ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+Lexical insertion
+[TP
+  [NP [Name Hiemdall_i]]
+  [T'
+    [T_+PAST,-NEG]
+    [VP
+      [V'
+        [V plan]
+        [CP
+          [C'
+            [C for]
+            [TP
+              [NP
+                [D some]
+                [N'
+                  [N one]
+                ]
+              ]
+              [T'
+                [T_fin to]
+                [VP
+                  [V'
+                    [V invite]
+                    [NP
+                      [Pro he_i]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+passive transformation
+
+[TP
+  [NP [Name Hiemdall_i]]
+  [T'
+    [T_+PAST,-NEG]
+    [VP
+      [V'
+         [V plan]
+        [CP
+          [C'
+            [C for]
+            [TP
+              [NP
+                [Pro he_i,ACC]
+              ]
+              [T'
+                [T_fin to]
+                [VP
+                  [V'
+                    [V be_pass]
+                    [VP
+                      [V'
+                        [V invite_EN]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+form rules and verb raising
+
+[TP
+  [NP [Name Hiemdall_i]]
+  [T'
+    [T_+PAST,-NEG,3rd,sg [V planned]]
+    [VP
+      [V'
+        [CP
+          [C'
+            [C for]
+            [TP
+              [NP
+                [Pro he_i,ACC]
+              ]
+              [T'
+                [T_fin to]
+                [VP
+                  [V'
+                    [V be_pass]
+                    [VP
+                      [V'
+                        [V invited_EN]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+transformation: Ragnarok
+
+
+[TP
+  [NP [Name Hiemdall_i]]
+  [T'
+    [T_+PAST,-NEG,3rd,sg [V planned]]
+    [VP
+      [V'
+        [CP
+          [C'
+            [TP
+              [T'
+                [T_fin to]
+                [VP
+                  [V'
+                    [V be_pass]
+                    [VP
+                      [V'
+                        [V invited_EN]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+
+-------off topic passive sentences again-------------
+
+    NP       AUX-PASS   V_EN
+(3) Heimdall was        invited
+(4) someone invited Heimdall.
+deep structure
+[TP
+  [NP
+    [D some]
+    [N'
+      [N one]
+    ]
+  ]
+  [T'
+    [T_+PAST,-NEG]
+    [VP
+      [V'
+        [V invite]
+        [NP
+          [Name Heimdall]
+        ]
+      ]
+    ]
+  ]
+]
+
+passove transformation
+
+[TP
+  [NP
+    [Name Heimdall]
+  ]
+  [T'
+    [T_+PAST,-NEG]
+    [VP
+      [V'
+        [AUX-Pass be]
+        [VP
+          [V'
+            [V invite]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+form rules and verb raising transformation
+
+[TP
+  [NP
+    [Name Heimdall]
+  ]
+  [T'
+    [T_+PAST,-NEG,3rd,sg [AUX-Pass be]]
+    [VP
+      [V'
+        [VP
+          [V'
+            [V invited]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+
+We need a AUX-pass form rules
+Place EN on the verbal element head of a VP complement of AUX-Pass
+
+
+
+Th[ey]_i [are]_j invited
+someone invit[es]_j th[em]_i
+
+this is why we have the passive transformation before form rules. the form of
+the main verb and the object change depending on if the sentence is passive or
+accusative.
+
+
+NP      AUX-be  VP        NP
+someone is      watching  him
+he  is      being     watched
+NP  AUX-be AUX-Pass  VP
+
+
+------------------------
+
+agent theme and goal describe the relationship between things.
+
+agent is like the doer/intentional
+
+john walks
+
+john is doing the walking
+
+
+theme is the undergoer
+
+mary fell
+
+falling is happening to mary
+she not intentionally falling
+
+
+goal is the recipient
+
+Sam sent a letter to jim
+
+sam is the agent
+a letter is the theme
+jim is the goal
+
+jim is getting the theme
+sam is doing the sending
+a letter is getting sent
+
+you can have a goal without a theme
+
+sam donated to charity
+and
+sam donated money to charity
+
+walk, V, <A>
+fall, V, <T>
+send, V, <A,T,G>
+
+#the redwoods voted.
+
+voted wants a agent and instinctively the redwoods are a goal.

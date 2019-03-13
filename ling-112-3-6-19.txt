@@ -1,0 +1,178 @@
+Feb 8 2019
+Ling 112 Syntax I
+
+Professor
+Pranav Anand
+panand@ucsc.edu
+Office hours: Thursdays, 11:00 AM - 12:00 PM
+Location: Stevenson 260
+
+TA's
+
+Andrew Hedding
+ahedding@ucsc.edu
+Office hours: Tuesdays, 2:00 PM - 3:00 PM
+Location: Stevenson 269
+
+Jed Pizarro-Guevara
+jpguevar@ucsc.edu
+Office hours: Tuesdays, 1:00 PM - 2:00 PM
+Location: Stevenson 237
+
+New actual tutoring hours:
+
+Monday 2:40-3:40 PM
+Tuesday 5:20-6:20 PM
+Wednesday 1:20-2:20 PM
+Wednesday 4:00-5:00 PM
+
+MSI email: akorozco@csc.edu
+
+ignoring modifiers our current x' schema is
+XP -> [specifier] X'
+X' -> X [complement]
+
+XP's with specifiers
+
+TP -> NP T'
+NP -> ({D, PossP}) N'
+AP -> (Deg) A'
+
+Xp's currently without specifiers
+
+VP -> V'
+PP -> P'
+CP -> C'
+
+(1) John has left
+
+[TP
+  [NP
+    [Name John]
+  ]
+  [T'
+    [T_+PAST,-NEG]
+    [VP
+      [V'
+        [AUX-have have]
+        [VP
+          [V'
+            [V_EN leave]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+WE dont have the rule that take the features of the T and apply it to the next V
+our rule now is to move the first V head into T head
+
+so far T bears the features of 1st/2nd/3rd person, and single/plural from the subject and  +-PAST, -+NEG, of the verb.
+
+So after applying out AUX moving transformation
+
+
+[TP
+  [NP
+    [Name John]
+  ]
+  [T'
+    [T_+PAST,-NEG
+      [AUX-have had]
+    ]
+    [VP
+      [V'
+        [VP
+          [V'
+            [V_EN leave]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
+
+We know that T gets the +PAST and -NEG is because we are trying to form the sentence John had left so we have to look are the sentence to know what tense
+it doesnt matter what else it could generate. we could generate the the present tense but that doesnt matter to us.
+
+
+dialect is about communities language commonly defined as spacial but sometimes racial or class or more commonly between games or online communities
+
+ideolect is personal effectively dialect
+
+
+(2) John left.
+
+[TP
+  [NP
+    [Name John]
+  ]
+  [T'
+    [T_+PAST,+NEG]
+    [VP
+      [VP
+        [V'
+          [V leave]
+        ]
+      ]
+    ]
+  ]
+]
+
+[TP
+  [NP
+    [Name John]
+  ]
+  [T'
+    [T leave_+PAST,+NEG]
+    [VP
+      [VP
+        [V'
+        ]
+      ]
+    ]
+  ]
+]
+
+(2') *John leftn't
+
+the problem with doing this is it opens us up to a sentence like (2')
+
+a. one possiblity is that we have a silent do hidden but we wont explore that idea.
+
+b. another is we have a transformation rule where before we move something other then and AUX verb into the T head we insert do into the T head. and because do doesnt add any meaning to the sentence we are able to insert it without worry.
+
+there is never a reason to have negation on the main verb.
+
+
+c. another possibility is to have some sort of x' schema specifically for negation. will explore more at a future date.
+
+d. there is a form rule specifically for when there is negation and another when there isnt negation.
+
+ASK TO EXPLAIN IN MORE DETAIL I DONT FOLLOW
+
+---------last homework-------------------
+
+ASK ABOUT C_H AND HOW I THOUGHT FOR COULD NOT HAVE TO FOLLOW IT
+WOULDNT THE HEAD OF A TP BE THE NP/NAME NOT THE T
+
+(3) a. John planned [for [mary to visit him]]
+                    CP   TP
+    b. John planned that mary would visit him.
+    c. *John planned for mary would visit him.
+    d. *John planned that mary to visit him.
+
+[TP[T]]
+
+for, C, __ TP[to]
+to, T/AUX-mod,
+that, C, __ TP[-to]
+
+we can only argue in subcat for what the head is therefore to must be a T and it is infinitive meaning it is not finite so it has no tense
+
+therefore our subcat rule would look like
+
+for, C, __ TP[-fin]
+to, T_-fin,
+that, C, __ TP[+finite]
